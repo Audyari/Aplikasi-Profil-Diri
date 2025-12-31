@@ -20,6 +20,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="false"
+            android:label="Menu Utama" />
+
+        <activity
+            android:name=".ProfileDiriActivity"
+            android:exported="false"
+            android:label="Profile Diri" />
+
+        <activity
+            android:name=".PencarianActivity"
+            android:exported="false"
+            android:label="Pencarian" />
+
+        <activity
+            android:name=".PengaturanActivity"
+            android:exported="false"
+            android:label="Pengaturan" />
     </application>
 
 </manifest>
